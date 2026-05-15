@@ -1,0 +1,16 @@
+cd bookstore
+npm install vite --save-dev
+npm install
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  }
+}
+"devDependencies": {
+  "vite": "^7.0.0"
+}
+git add .
+git commit -m "fixed vite"
+git push
